@@ -68,3 +68,4 @@
 /Users/uvyadayu/Documents/Projects/RiderProjects/Messanger/Messenger/obj/Debug/net8.0/Messenger.pdb
 /Users/uvyadayu/Documents/Projects/RiderProjects/Messanger/Messenger/obj/Debug/net8.0/Messenger.genruntimeconfig.cache
 /Users/uvyadayu/Documents/Projects/RiderProjects/Messanger/Messenger/obj/Debug/net8.0/ref/Messenger.dll
+/Users/uvyadayu/Documents/Projects/RiderProjects/Messanger/Messenger/obj/Debug/net8.0/Messenger.sourcelink.json
