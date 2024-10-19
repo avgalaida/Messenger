@@ -8,8 +8,5 @@ public class MessengerSubscribtion
     public User OnUserReg([EventMessage] User user) => user;
     
     [Subscribe]
-    public User OnUserAuth([EventMessage] User user) => user;
-    
-    [Subscribe]
     public Message OnMessageSend([EventMessage] Message message) => message;
 }

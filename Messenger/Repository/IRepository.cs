@@ -8,9 +8,9 @@ public interface IRepository
     Task<User?> GetUserByUsername(string username);
     Task<int> GetUserCount();
     Task<User> AddUser(User user);
-    Task<List<Message>> GetMessages(int from, int to);
-    
+    Task<List<Message>> GetChat(int a, int b);
     Task<int> GetMessageCount();
     Task<Message> AddMessage(Message message);
+    
     
 }

@@ -16,7 +16,6 @@ namespace Messenger.Repository
         {
             return await _context.users.ToListAsync();
         }
-
         public async Task<User?> GetUserByUsername(string username)
         {
             return await _context.users.FirstOrDefaultAsync(u => u.username == username);
@@ -34,26 +33,26 @@ namespace Messenger.Repository
 
             return user;
         }
-        
-        public async Task<List<Message>> GetMessages(int from, int to)
+
+        public async Task<List<Message>> GetChat(int a, int b)
         {
-            return await _context.Messages
-                .Where(message => message.SenderId == from && message.ReceiverId == to)
+            return await _context.messages
+                .Where(message => (message.senderid == a && message.receiverid == b) ||
+                                  (message.senderid == b && message.receiverid == a))
                 .ToListAsync();
         }
 
         public async Task<int> GetMessageCount()
         {
-            return await _context.Messages.CountAsync();
+            return await _context.messages.CountAsync();
         }
 
         public async Task<Message> AddMessage(Message message)
         {
-            _context.Messages.Add(message);
+            _context.messages.Add(message);
             await _context.SaveChangesAsync();
 
             return message;
         }
-
     }
 }

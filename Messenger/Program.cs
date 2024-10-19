@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 var context = builder.Services.AddDbContext<AppDbContext>(options =>
 {
-    options.UseNpgsql("Server=bubble.db.elephantsql.com;Port=5432;Database=uzxkfkdx;User Id=uzxkfkdx;Password=VNH3xRL8Izj5OC9FEG2siap2ZUgj-on3;");
+    options.UseNpgsql("Server=127.0.0.1;Port=54321;Database=Messenger;User Id=postgres;Password=kokomi;");
 });
 
 builder.Services.AddScoped<MessengerService,MessengerService>();

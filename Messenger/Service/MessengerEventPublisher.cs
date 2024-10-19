@@ -19,12 +19,6 @@ public class MessengerEventPublisher
         return user;
     }
     
-    public async Task<User?> PublishAuthorized(User? user)
-    {
-        await _sender.SendAsync(nameof(MessengerSubscribtion.OnUserAuth), user);
-        return user;
-    }
-    
     public async Task<Message?> PublishMessageSended(Message? message)
     {
         await _sender.SendAsync(nameof(MessengerSubscribtion.OnMessageSend), message);

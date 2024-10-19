@@ -18,12 +18,14 @@ public class MessengerService
         return users;
 
     }
-    public async Task<List<Message>> GetMessages(int from, int to)
+    
+    public async Task<List<Message>> GetChat(int a, int b)
     {
-        var messages = await _repository.GetMessages(from, to);
+        var messages = await _repository.GetChat(a, b);
         return messages;
 
     }
+    
     public async Task<User?> RegUser(string username, string password)
     {
         var existingUser = await _repository.GetUserByUsername(username);
@@ -74,10 +76,10 @@ public class MessengerService
         
         var message = new Message
         {
-            Id = messageCount + 1,
-            SenderId = from,
-            ReceiverId = to,
-            Text = text
+            id = messageCount + 1,
+            senderid = from,
+            receiverid = to,
+            text = text
         };
         
         await _repository.AddMessage(message);

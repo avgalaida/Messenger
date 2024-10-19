@@ -17,8 +17,8 @@ public class MessengerQuery
         return await _messengerService.GetAllUsers();
     }
     
-    public async Task<List<Message>> GetMessages(int from, int to)
+    public async Task<List<Message>> GetChat(int a, int b)
     {
-        return await _messengerService.GetMessages(from, to);
+        return await _messengerService.GetChat(a, b);
     }
 }

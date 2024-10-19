@@ -62,10 +62,10 @@
 /Users/uvyadayu/Documents/Projects/RiderProjects/Messanger/Messenger/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Messenger.props
 /Users/uvyadayu/Documents/Projects/RiderProjects/Messanger/Messenger/obj/Debug/net8.0/staticwebassets.pack.json
 /Users/uvyadayu/Documents/Projects/RiderProjects/Messanger/Messenger/obj/Debug/net8.0/scopedcss/bundle/Messenger.styles.css
-/Users/uvyadayu/Documents/Projects/RiderProjects/Messanger/Messenger/obj/Debug/net8.0/Messenger.csproj.CopyComplete
 /Users/uvyadayu/Documents/Projects/RiderProjects/Messanger/Messenger/obj/Debug/net8.0/Messenger.dll
 /Users/uvyadayu/Documents/Projects/RiderProjects/Messanger/Messenger/obj/Debug/net8.0/refint/Messenger.dll
 /Users/uvyadayu/Documents/Projects/RiderProjects/Messanger/Messenger/obj/Debug/net8.0/Messenger.pdb
 /Users/uvyadayu/Documents/Projects/RiderProjects/Messanger/Messenger/obj/Debug/net8.0/Messenger.genruntimeconfig.cache
 /Users/uvyadayu/Documents/Projects/RiderProjects/Messanger/Messenger/obj/Debug/net8.0/ref/Messenger.dll
 /Users/uvyadayu/Documents/Projects/RiderProjects/Messanger/Messenger/obj/Debug/net8.0/Messenger.sourcelink.json
+/Users/uvyadayu/Documents/Projects/RiderProjects/Messanger/Messenger/obj/Debug/net8.0/Messenger.csproj.Up2Date

@@ -24,8 +24,6 @@ public class MessengerMutation
     public async Task<User?> Authorize(string username, string password)
     {
         var user = await _messengerService.Auth(username, password);
-        await _messengerEventPublisher.PublishAuthorized(user);
-        
         return user;
     }
 
