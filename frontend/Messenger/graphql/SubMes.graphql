@@ -1,0 +1,8 @@
+subscription SubMessage{
+  onMessageSend {
+    id
+    senderid
+    receiverid
+    text
+  }
+}

@@ -1,0 +1,5 @@
+mutation Send($from: Int!, $to: Int!, $text: String!) {
+  sendMessage(from: $from, to: $to, text: $text) {
+    id
+  }
+}

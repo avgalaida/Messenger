@@ -1,0 +1,8 @@
+query Chat($a: Int!, $b: Int!) {
+  chat(a: $a, b: $b) {
+    id
+    senderid
+    receiverid
+    text
+  }
+}

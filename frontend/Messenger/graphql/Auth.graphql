@@ -1,0 +1,6 @@
+mutation Auth($username: String!, $password: String!) {
+    authorize(username: $username, password: $password) {
+        id
+        username
+    }
+}

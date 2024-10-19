@@ -1,0 +1,6 @@
+mutation Reg($username: String!, $password: String!){
+    createUser(username: $username, password: $password) {
+        id
+        username
+    }
+}

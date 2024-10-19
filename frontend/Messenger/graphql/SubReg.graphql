@@ -1,0 +1,6 @@
+subscription SubContacts{
+  onUserReg {
+    id
+    username
+  }
+}
